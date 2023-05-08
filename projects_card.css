@@ -1,0 +1,47 @@
+#projects {
+  border-radius: 10px;
+  box-shadow: 1px 1px 25px 3px rgba(0,0,0,.2); 
+  padding: 1%;
+  position: relative;
+}
+
+#card-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  margin: 1%;
+}
+
+.item {
+
+  border-radius: 10px;
+  box-shadow: 1px 1px 25px 3px rgba(0,0,0,.2); 
+  width: 35%;
+  cursor: pointer;
+  display: flex;
+  gap: 5em;
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.pic-item {
+  border: 3px solid white;
+  border-radius: 5px;
+  max-width: 50%;
+  object-fit: cover;
+  margin-left: 5px;
+}
+
+.odd-img {
+  float: right;
+  direction: rtl;
+}
+
+.card-title {
+  margin: 5%;
+  width: 50%;
+  height: 70%;
+}
